@@ -19,6 +19,7 @@ def echo_all(message):
         # Отправляем приветствие пользователю
         bot.reply_to(message, "Привет!")
     elif 'пока' in text:
+        # Отправляем пока
         bot.reply_to(message, "Пока!")
     elif 'тест' in text:
         bot.reply_to(message, "Тестовое сообщение!")
