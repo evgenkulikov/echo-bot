@@ -16,6 +16,7 @@ def echo_all(message):
     text = message.text.lower()
 
     if 'привет' in text:
+        # Отправляем приветствие пользователю
         bot.reply_to(message, "Привет!")
     elif 'пока' in text:
         bot.reply_to(message, "Пока!")
